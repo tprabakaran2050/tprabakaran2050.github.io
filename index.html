@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tejessrihari Prabakaran — Software Engineer</title>
+<meta name="description" content="Portfolio of Tejessrihari Prabakaran — Computer Science student at Georgia Tech, Software Engineer Intern at The Home Depot, building AI systems and real-time security platforms." />
+<meta property="og:title" content="Tejessrihari Prabakaran — Software Engineer" />
+<meta property="og:description" content="CS @ Georgia Tech. Building AI-driven developer tools and real-time security platforms." />
+<meta property="og:image" content="assets/profile.jpg" />
+<meta property="og:type" content="website" />
+<meta name="theme-color" content="#06060a" />
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+<div class="noise-overlay" aria-hidden="true"></div>
+<div class="progress-bar" id="progressBar" aria-hidden="true"></div>
+
+<header class="nav" id="siteNav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">TP<span class="nav-logo-dot">.</span></a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#about" data-nav>About</a>
+      <a href="#experience" data-nav>Experience</a>
+      <a href="#projects" data-nav>Projects</a>
+      <a href="#education" data-nav>Education</a>
+      <a href="#skills" data-nav>Skills</a>
+      <a href="#contact" data-nav>Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <a class="btn btn-ghost" href="assets/Tejessrihari_Prabakaran_Resume.pdf" target="_blank" rel="noopener">Résumé</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="blob blob-a"></div>
+      <div class="blob blob-b"></div>
+      <div class="grid-overlay"></div>
+    </div>
+
+    <div class="hero-inner container">
+      <div class="hero-text" data-reveal>
+        <p class="eyebrow">SOFTWARE ENGINEER · AI/ML &amp; SYSTEMS</p>
+        <h1 class="hero-title">Hi, I'm <span class="text-gradient">Tejessrihari</span><br />Prabakaran</h1>
+        <p class="hero-sub">
+          Computer Science student at <strong>Georgia Institute of Technology</strong>, specializing in AI &amp; Modeling/Simulation.
+          Two-time Software Engineer Intern at <strong>The Home Depot</strong>, building AI systems that save thousands of engineering hours and platforms that process millions of security events in real time.
+        </p>
+
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="hero-stat-num" data-count="5000" data-suffix="+">0</span>
+            <span class="hero-stat-label">Dev-hrs saved / yr</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-num" data-count="500" data-suffix="K/s">0</span>
+            <span class="hero-stat-label">Events ingested</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-num" data-count="0.975" data-decimals="3">0</span>
+            <span class="hero-stat-label">ROC-AUC</span>
+          </div>
+        </div>
+
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+
+        <div class="hero-social">
+          <a href="https://github.com/tprabakaran2050" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" /></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/tejessrihari-prabakaran/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect x="2" y="9" width="4" height="12" /><circle cx="4" cy="4" r="2" /></svg>
+          </a>
+          <a href="mailto:tprabakaran3@gatech.edu" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" /><polyline points="22,6 12,13 2,6" /></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-photo" data-reveal data-reveal-delay="1">
+        <div class="photo-frame">
+          <img src="assets/profile.jpg" alt="Portrait of Tejessrihari Prabakaran" width="1143" height="1600" />
+          <div class="photo-ring" aria-hidden="true"></div>
+        </div>
+        <div class="floating-card floating-card-1">🎓&nbsp; Georgia Tech · CS '27</div>
+        <div class="floating-card floating-card-2">💼&nbsp; 2× SWE Intern · Home Depot</div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll to content">
+      <span class="scroll-cue-mouse"><span></span></span>
+    </a>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="kicker">01 · About</p>
+        <h2>Who I am</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-copy" data-reveal>
+          <p>I'm a Computer Science student at the Georgia Institute of Technology, specializing in Artificial Intelligence and Modeling &amp; Simulation. I like working where machine learning meets real infrastructure — graph-based reasoning systems, RAG-grounded copilots, and the observability plumbing that keeps them honest once they're in production.</p>
+          <p>Across two Software Engineer internships at The Home Depot and a run of independent projects, I've shipped systems spanning developer-tooling AI, autonomous security operations, hybrid LLM routing, and computer vision for drones — each one built around the same question: how do you make a system fast, cheap, and trustworthy enough to actually run in production.</p>
+
+          <ul class="fact-list">
+            <li><span>Location</span>Atlanta, GA</li>
+            <li><span>Education</span>B.S. Computer Science, Georgia Tech · Class of 2027</li>
+            <li><span>Focus</span>AI/ML Systems, Security, Distributed Infrastructure</li>
+            <li><span>Currently</span>Senior at Georgia Tech · building the Autonomous SOC Platform</li>
+          </ul>
+        </div>
+
+        <div class="about-stats" data-reveal data-reveal-delay="1">
+          <div class="stat-card">
+            <span class="stat-card-num" data-count="3.8" data-decimals="1" data-suffix="M">0</span>
+            <span class="stat-card-label">Events processed in real time</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card-num" data-count="8" data-suffix="×">0</span>
+            <span class="stat-card-label">Tighter output variance vs. baseline</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card-num" data-count="100" data-suffix="+">0</span>
+            <span class="stat-card-label">Developers using tools I've shipped</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card-num" data-count="6534" data-suffix="">0</span>
+            <span class="stat-card-label">Assets mapped in a lineage graph</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="section section-alt" id="experience">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="kicker">02 · Experience</p>
+        <h2>Where I've worked</h2>
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline-item" data-reveal>
+          <div class="timeline-date">May 2026 – Jul 2026<span class="timeline-tag">Most recent</span></div>
+          <div class="timeline-card">
+            <h3 class="timeline-role">Software Engineer Intern</h3>
+            <p class="timeline-company">The Home Depot — Smyrna, GA</p>
+            <ul>
+              <li>Built a Gemini 3.1 Pro graph-traversal system replacing flat-table lookups with graph-based reasoning for developer queries, saving <strong>~5,000 developer-hours annually</strong> via a 72.2% to 88.0% (880/1,000 correct) accuracy lift, outperforming the legacy internal Q&amp;A tool by 14.7 pts.</li>
+              <li>Prevented prompt/config regressions from ever shipping, validated across <strong>2,000 augmented questions</strong>, by gating every change behind a held-out accuracy check in a 4-phase, 15-iteration self-tuning pipeline.</li>
+              <li>Eliminated manual redeploys across the graph-traversal system, tuning pipeline, and chatbot by automating deployment and retraining — containerizing all three on auto-scaling Cloud Run via GitHub Actions CI/CD with a <strong>6h cron-gated retrain cycle</strong>.</li>
+              <li>Gave previously siloed teams shared lineage traceability across <strong>6,534 assets</strong> and 64M lineage entries, by modeling ownership and dependencies as a BigQuery property graph spanning metadata, lineage, and semantic subgraphs.</li>
+              <li>Validated the graph-traversal system's reliability, not just a single accuracy snapshot, by measuring <strong>8x tighter output variance</strong> than the flat-table baseline.</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tag">Gemini 3.1 Pro</span>
+              <span class="tag">BigQuery</span>
+              <span class="tag">Cloud Run</span>
+              <span class="tag">GitHub Actions CI/CD</span>
+              <span class="tag">Property Graphs</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-reveal>
+          <div class="timeline-date">May 2025 – Jul 2025</div>
+          <div class="timeline-card">
+            <h3 class="timeline-role">Software Engineer Intern</h3>
+            <p class="timeline-company">The Home Depot — Smyrna, GA</p>
+            <ul>
+              <li>Designed and shipped an incident-debugging API with automated multi-step workflows on GCP that auto-diagnoses production issues, improving developer <strong>productivity 40%</strong> and shrinking <strong>response time 38%</strong> (2.6h to 1.6h) across ~30 incidents/month.</li>
+              <li>Automated root-cause classification for production incidents, achieving an <strong>F1 of 0.86</strong> across 9 error classes including complex cross-stack function-call errors, by building a Cloud Logging-to-BigQuery pipeline and training scikit-learn classifiers exposed via REST endpoints.</li>
+              <li>Reduced <strong>duplicate tickets 22%</strong> and <strong>IDE lookup time by 41s</strong> by orchestrating a Google-ADK pipeline of Gemini agents that rank candidate fixes using BM25.</li>
+              <li>Drove adoption across <strong>100+ developers</strong> for faster in-IDE debugging by integrating the debugging API via MCP directly into IDEs to fetch logs and traces.</li>
+              <li>Surfaced root-cause signals from four separate observability layers into one unified workflow, by instrumenting the debugging API across BigQuery, Cloud Tracing, Cloud Logging, and Kubernetes.</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tag">GCP</span>
+              <span class="tag">scikit-learn</span>
+              <span class="tag">Google-ADK</span>
+              <span class="tag">MCP</span>
+              <span class="tag">Kubernetes</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="kicker">03 · Projects</p>
+        <h2>Things I've built</h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <article class="project-card project-featured" data-reveal>
+          <div class="project-head">
+            <h3 class="project-title">Autonomous SOC Platform</h3>
+            <span class="project-date">Apr 2026 – Present</span>
+          </div>
+          <p class="project-stack">Kafka · Apache Beam · Elasticsearch · XGBoost · eBPF · Gemini 3.1 Pro</p>
+          <ul>
+            <li>Built an autonomous SOC platform that triages security incidents in real time, compressing <strong>triage time 45min to 3min</strong>, reducing hallucination 23% to 4%, and curbing false-positive escalations 67% via a RAG-grounded Gemini 3.1 Pro copilot across 3.8M events.</li>
+            <li>Automated malicious-vs-benign event triage, achieving <strong>ROC-AUC 0.975</strong> (Precision 0.901, Recall 0.875), by training XGBoost classifiers on 3.8M honeypot events with BorderlineSMOTE and Optuna Bayesian tuning.</li>
+            <li>Sustained <strong>500K events/sec</strong> ingestion at &lt;1% CPU overhead by streaming 3.8M events through a partition-keyed Kafka/Apache Beam pipeline and a least-privilege eBPF DaemonSet (no root) for kernel telemetry.</li>
+            <li>Delivered <strong>sub-20ms semantic search</strong> via dual BM25/HNSW retrieval on Elasticsearch (384-dim embeddings), deployed on Kubernetes with horizontal pod autoscaling and rolling updates.</li>
+          </ul>
+        </article>
+
+        <article class="project-card" data-reveal>
+          <div class="project-head">
+            <h3 class="project-title">Hybrid LLM Processor</h3>
+            <span class="project-date">May 2025 – Dec 2025</span>
+          </div>
+          <p class="project-stack">FastAPI · Presidio/spaCy · scikit-learn · Ollama/Qwen3 · Gemini · ReactJS · Docker</p>
+          <ul>
+            <li>Built a hybrid local/cloud LLM system routing each request between a self-hosted Qwen3 14B model and Gemini via a scikit-learn TF-IDF classifier (<strong>0.95 CV accuracy</strong>), balancing cost, latency, and privacy.</li>
+            <li>Kept sensitive data structurally unreachable by the cloud path — <strong>zero leaks</strong> across 300 concurrent sessions (4,055 requests), 0.89 routing accuracy, F1 0.921 macro — via Presidio+spaCy PII detection wired into a fail-closed routing architecture.</li>
+            <li>Achieved <strong>100% specificity</strong> and zero false escalations with a confidence-based escalation cascade that routes only weak-confidence segments to Gemini at a total added cost of $0.000319, based on Qwen3 log-probabilities.</li>
+            <li>Decreased <strong>cloud spend 46%</strong> and <strong>cloud latency 30.6%</strong> (2105ms vs 3034ms, 172 RPS) with local Qwen3 inference, served via a Dockerized FastAPI+React app with independent circuit breakers and rate limiting.</li>
+          </ul>
+        </article>
+
+        <article class="project-card" data-reveal>
+          <div class="project-head">
+            <h3 class="project-title">Better Place Drones</h3>
+            <span class="project-date">Aug 2024 – Present</span>
+          </div>
+          <p class="project-stack">Python · PyTorch · Transformers · Mission Planner</p>
+          <ul>
+            <li>Built a drone-based fire/object detection system, achieving <strong>78% mAP</strong> and 0.84 recall on 13k thermal/HD frames by training CNN + Transformer models in PyTorch with transfer learning, mixed precision, and custom-built labeled datasets.</li>
+            <li>Optimized pipeline latency from <strong>62ms to 11ms</strong> by building a data pipeline for denoising, timestamp sync, and augmentation.</li>
+            <li>Reduced mean coverage gap by <strong>14%</strong> in AirSim by implementing path-planning algorithms for navigation in cluttered terrain.</li>
+            <li>Streamed live telemetry, mission uploads, and real-time overlays to operators by integrating with the Mission Planner ground station.</li>
+          </ul>
+        </article>
+
+      </div>
+
+      <p class="projects-note">More on <a href="https://github.com/tprabakaran2050" target="_blank" rel="noopener">github.com/tprabakaran2050</a></p>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section class="section section-alt" id="education">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="kicker">04 · Education</p>
+        <h2>Academic background</h2>
+      </div>
+
+      <div class="edu-card" data-reveal>
+        <div class="edu-badge" aria-hidden="true">GT</div>
+        <div>
+          <h3 class="edu-school">Georgia Institute of Technology</h3>
+          <p class="edu-degree">B.S. in Computer Science</p>
+
+          <div class="edu-meta">
+            <div><span>Graduation</span>May 2027</div>
+            <div><span>GPA</span><strong>3.7 / 4.0</strong></div>
+            <div><span>Specialization</span>Artificial Intelligence &amp; Modeling/Simulation</div>
+          </div>
+
+          <p class="edu-course-label">Relevant Coursework</p>
+          <div class="chip-row">
+            <span class="chip">Data Structures</span>
+            <span class="chip">Design &amp; Analysis of Algorithms</span>
+            <span class="chip">Machine Learning</span>
+            <span class="chip">Systems &amp; Networks</span>
+            <span class="chip">Deep Learning</span>
+            <span class="chip">Computer Vision</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="kicker">05 · Skills</p>
+        <h2>Toolbox</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-group" data-reveal>
+          <h3>Languages · Databases · Cloud</h3>
+          <div class="chip-row">
+            <span class="chip">Python</span><span class="chip">Java</span><span class="chip">C</span><span class="chip">C++</span>
+            <span class="chip">SQL</span><span class="chip">JavaScript</span><span class="chip">TypeScript</span><span class="chip">Bash</span>
+            <span class="chip">MongoDB</span><span class="chip">MySQL</span><span class="chip">PostgreSQL</span><span class="chip">Firebase</span><span class="chip">GCP</span>
+          </div>
+        </div>
+
+        <div class="skill-group" data-reveal data-reveal-delay="1">
+          <h3>Frameworks · Libraries</h3>
+          <div class="chip-row">
+            <span class="chip">PyTorch</span><span class="chip">scikit-learn</span><span class="chip">Apache Beam</span><span class="chip">XGBoost</span>
+            <span class="chip">Flask</span><span class="chip">ReactJS</span><span class="chip">NumPy</span><span class="chip">LangChain</span>
+            <span class="chip">Google-ADK</span><span class="chip">Pandas</span>
+          </div>
+        </div>
+
+        <div class="skill-group" data-reveal>
+          <h3>Architecture &amp; Protocols</h3>
+          <div class="chip-row">
+            <span class="chip">REST APIs</span><span class="chip">Model Context Protocol (MCP)</span><span class="chip">Microservices</span>
+          </div>
+        </div>
+
+        <div class="skill-group" data-reveal data-reveal-delay="1">
+          <h3>DevOps · Tools</h3>
+          <div class="chip-row">
+            <span class="chip">Docker</span><span class="chip">Kubernetes</span><span class="chip">Apache Kafka</span><span class="chip">Elasticsearch</span>
+            <span class="chip">eBPF</span><span class="chip">Git</span><span class="chip">Cloud Logging</span><span class="chip">Cloud Tracing</span>
+            <span class="chip">GitHub Actions</span><span class="chip">Linux</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section section-contact" id="contact">
+    <div class="container">
+      <div class="contact-inner" data-reveal>
+        <p class="kicker">06 · Contact</p>
+        <h2>Let's build something.</h2>
+        <p class="contact-sub">Have an interesting problem, an opportunity, or just want to talk shop about AI systems and security? My inbox is open.</p>
+        <a class="contact-email" href="mailto:tprabakaran3@gatech.edu">tprabakaran3@gatech.edu</a>
+
+        <div class="hero-social contact-social">
+          <a href="https://github.com/tprabakaran2050" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" /></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/tejessrihari-prabakaran/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect x="2" y="9" width="4" height="12" /><circle cx="4" cy="4" r="2" /></svg>
+          </a>
+        </div>
+
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="assets/Tejessrihari_Prabakaran_Resume.pdf" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" y1="15" x2="12" y2="3" /></svg>
+            Download Résumé
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <p>&copy; 2026 Tejessrihari Prabakaran.</p>
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5" /><polyline points="5 12 12 5 19 12" /></svg>
+    </button>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
