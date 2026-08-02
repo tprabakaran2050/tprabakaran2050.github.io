@@ -741,6 +741,18 @@ body {
   font-size: clamp(1.15rem, 2vw, 1.4rem);
   font-weight: 600;
 }
+.project-title a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  transition: color 0.3s var(--ease);
+}
+.project-title a:hover { color: var(--accent-3); }
+.project-title .ext-icon {
+  width: 14px; height: 14px;
+  opacity: 0.55;
+  flex-shrink: 0;
+}
 .project-date {
   font-family: var(--font-mono);
   font-size: 0.75rem;
